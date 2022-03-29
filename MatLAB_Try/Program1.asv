@@ -1,9 +1,0 @@
-Turks = csvread("turkish-se-SP500vsMSCI.csv")
-Cars = readtable("mtcarsdata-4features.csv")
-Cars = table2array(Cars(2:height(Cars),2:width(Cars)))
-
-w = CalcOneDim(Turks)
-
-%plot(Turks(:,1),w*Turks(:,1))
-plot(Turks(:,1),Turks(:,2))
-plot(Turks(:,1),y1,'g',x,y2,'b--o',x,y3,'c*')
