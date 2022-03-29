@@ -1,5 +1,5 @@
 # Machine Learning : Linear regression models
-================================
+=======================
 This model consists of two parts:
 -	This is a machine learining algorythm using linear regression given a data that is organized with regard to working days in "Istanbul Stock Exchange" (from UCI Machine Learning Repository), predicting target as one-dimensional problem without intercept.
 - The second part uses "mtcars" dataset from "The R Project for Statistical Computing". It predicts the target as one-dimensinal problem and also as multi-dimensional problem.
